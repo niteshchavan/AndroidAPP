@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myapp'
+    namespace 'com.nitesh.myapplication'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.myapp"
+        applicationId "com.nitesh.myapplication"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -37,5 +37,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    implementation 'androidx.media3:media3-exoplayer:1.0.2'
+    implementation 'androidx.media3:media3-exoplayer-dash:1.0.2'
+    implementation 'androidx.media3:media3-ui:1.0.2'
     implementation 'androidx.media:media:1.6.0'
 }
