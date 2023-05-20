@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="channel_name">My Channel Name</string>
+    <string name="channel_description">My Channel Description</string>
+</resources>
